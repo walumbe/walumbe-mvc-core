@@ -1,5 +1,5 @@
 {
-    "name": "jonawalumbe/mvc-core",
+    "name": "walumbe/mvc-core",
     "autoload": {
         "psr-4": {
             "Walumbe\\MvcCore\\": "src/"
