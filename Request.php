@@ -1,9 +1,9 @@
 <?php
-namespace app\core;
+namespace walumbe\phpmvc;
 
 /**
  * @author  JonathanWalumbe
- * @package  app\core
+ * @package  walumbe\phpmvc
  */
 
 class Request

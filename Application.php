@@ -1,12 +1,12 @@
 <?php
-namespace  app\core;
+namespace  walumbe\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DBModel;
+use walumbe\phpmvc\db\Database;
+use walumbe\phpmvc\db\DBModel;
 use app\models\User;
 
 /**
- * @package app\core
+ * @package walumbe\phpmvc
  */
 
 Class Application
@@ -62,19 +62,19 @@ Class Application
     }
 
     /**
-     * @return \app\core\Controller
+     * @return \walumbe\phpmvc\Controller
     */
 
-    public function getController(): \app\core\Controller
+    public function getController(): \walumbe\phpmvc\Controller
     {
         return  $this->controller;
     }
 
     /**
-     * @param \app\core\Controller $controller
+     * @param \walumbe\phpmvc\Controller $controller
     */
 
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\walumbe\phpmvc\Controller $controller): void
     {
         $this->controller = $controller;
     }

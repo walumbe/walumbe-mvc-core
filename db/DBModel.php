@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core\db;
+namespace walumbe\phpmvc\db;
 
 //object Relational Mapping
 
-use app\core\Application;
-use app\core\Model;
+use walumbe\phpmvc\Application;
+use walumbe\phpmvc\Model;
 
 abstract class DBModel extends Model
 {

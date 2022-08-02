@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\exception;
+namespace walumbe\phpmvc\exception;
 
 class NotFoundException extends \Exception
 {

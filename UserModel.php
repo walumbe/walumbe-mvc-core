@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace walumbe\phpmvc;
 
-use app\core\db\DBModel;
+use walumbe\phpmvc\db\DBModel;
 
 /**
  * @author Jonathan Walumbe <nathanwalumbe@gmail.com>
- * @package app\core
+ * @package walumbe\phpmvc
  */
 abstract class UserModel extends DBModel
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core;
+namespace walumbe\phpmvc;
 
-use app\core\exception\NotFoundException;
+use walumbe\phpmvc\exception\NotFoundException;
 use http\Params;
 
 /**
  * @author JonathanWalumbe <nathanwalumbe@gmail.com>
- * @package app\core
+ * @package walumbe\phpmvc
  *
  */
 

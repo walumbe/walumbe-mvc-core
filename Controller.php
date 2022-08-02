@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace walumbe\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use walumbe\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
@@ -10,7 +10,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \walumbe\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
     public function setLayout($layout)

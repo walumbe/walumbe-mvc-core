@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\db;
+namespace walumbe\phpmvc\db;
 
-use app\core\Application;
+use walumbe\phpmvc\Application;
 
 /**
  * @author Jonathan Walumbe <nathanwalumbe@gmail.com>
- * @package app\core
+ * @package walumbe\phpmvc
 */
 
 class Database

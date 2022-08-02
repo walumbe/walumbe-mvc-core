@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace walumbe\phpmvc\form;
 
-use app\core\Model;
+use walumbe\phpmvc\Model;
 
 /**
  * @author Jonathan Walumbe <nathanwalumbe@gmail.com>

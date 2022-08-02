@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\middlewares;
+namespace walumbe\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use walumbe\phpmvc\Application;
+use walumbe\phpmvc\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {
